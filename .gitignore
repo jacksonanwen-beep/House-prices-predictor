@@ -1,0 +1,4 @@
+*_learn.py
+.DS_Store
+Data/*.csv
+.venv
