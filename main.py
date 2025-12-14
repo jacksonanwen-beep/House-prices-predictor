@@ -153,4 +153,10 @@ print(f"mean squared error = {test_mse}")
 print(f"mean absolute error = {test_mae}")
 
 
+# print the individual weights showing the importance of each factor
+
+bar = plt.bar(model.regression_model.feature_names_in_, model.regression_model.coef_)
+plt.xticks(rotation=90)
+plt.show()
+
 input()
